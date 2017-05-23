@@ -6,6 +6,15 @@ import Slider, { Range } from 'rc-slider';
 
 import 'rc-slider/assets/index.css';
 
+const data = [ { toPay: 1600, bodyCredit: 100, daysToPay: 5, 
+                 limitSumm: '100-300', limitTerm: '1-30' },
+               { toPay: 1600, bodyCredit: 100, daysToPay: 5, 
+                 limitSumm: '100-300', limitTerm: '1-30' },
+               { toPay: 1600, bodyCredit: 100, daysToPay: 5, 
+                 limitSumm: '100-300', limitTerm: '1-30' } 
+    ]
+
+
 export class Hello extends React.Component<any, any> {
     constructor(props) {
         super(props);
@@ -27,6 +36,7 @@ export class Hello extends React.Component<any, any> {
 
             <div className="content">
              <div className="slider-1"><Slider /></div>
+
             <div className="section-2__block">
 
             <div className="section-2__block-title">

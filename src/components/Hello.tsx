@@ -3,7 +3,6 @@ import * as React from "react";
 import '../css/main.css';
 
 import Slider, { Range } from 'rc-slider';
-
 import 'rc-slider/assets/index.css';
 
 const data = [ { toPay: 1600, bodyCredit: 100, daysToPay: 5, limitSumm: '100-300', limitTerm: '1-30' },
@@ -20,9 +19,7 @@ export class Hello extends React.Component<any, any> {
 
 
 render() {
-    // let { name } = this.state;
-    // let { surname } = this.state;
-    let { products: data } = this.state;
+    let { products } = this.state;
 
     return (
         <div>

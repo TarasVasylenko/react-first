@@ -6,8 +6,8 @@ import Slider, { Range } from 'rc-slider';
 import 'rc-slider/assets/index.css';
 
 const data = [ { toPay: 1600, bodyCredit: 100, daysToPay: 5, limitSumm: '100-300', limitTerm: '1-30' },
-               { toPay: 1600, bodyCredit: 100, daysToPay: 5, limitSumm: '100-300', limitTerm: '1-30' },
-               { toPay: 1600, bodyCredit: 100, daysToPay: 5, limitSumm: '100-300', limitTerm: '1-30' } 
+               { toPay: 1200, bodyCredit: 100, daysToPay: 5, limitSumm: '100-300', limitTerm: '1-30' },
+               { toPay: 2400, bodyCredit: 100, daysToPay: 5, limitSumm: '100-300', limitTerm: '1-30' } 
              ];
 
 const Product = ({ item }) => {

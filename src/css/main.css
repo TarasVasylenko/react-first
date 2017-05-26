@@ -529,11 +529,9 @@ img {
   font-size: 15px;
 }
 
-.label {
-  padding-left: 5px;
-}
 
-/*.checkbox:checked + .checkbox-decor::before {
+
+.checkbox:checked + .checkbox-decor::before {
   content: "";
   display: block;
   position: absolute;
@@ -544,7 +542,7 @@ img {
   background: url(../img/checked.png) center center no-repeat;
   background-size: contain;
 }
-*/
+
 .content {
   display: inline-block;
   width: 82.0513%;

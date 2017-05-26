@@ -1,4 +1,4 @@
-    import * as React from "react";
+    import * as React from 'react';
 
     import '../css/main.css';
 
@@ -24,6 +24,13 @@
                 <div className="container">
                     <div className="content">
                         <div className="slider-1"><Slider /></div>
+                        <div>
+                        <label>
+                            <input className="checkbox" type="checkbox" name="checkbox" />
+                            <div className="checkbox-decor"></div>
+                            <div className="label">только без процентов</div>
+                        </label>
+                        </div>
                         { products.map((item, i) => <Product item={ item } key= { i } /> ) }
                     </div>
                 </div>

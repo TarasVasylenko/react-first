@@ -1,4 +1,4 @@
-    import * as React from "react";
+    import * as React from 'react';
 
     export const Product = ({ item }) => {
     return (
@@ -21,10 +21,10 @@
                 <div className="col-30 first"><span className="ft-size--25">{ item.toPay }</span> грн</div>
                 <div className="col-40 str-2">
                     <div className="el-1">+</div>
-                    <div className="el-2"><span className="ft-size--20 value-slider-1"></span> грн</div>
+                    <div className="el-2"><span className="ft-size--20 value-slider-1">{ item.bodyCredit }</span> грн</div>
                     <div className="el-3">=</div>
                 </div>
-                <div className="col-30 last str-2"><span className="ft-size--20 value-slider-2"></span> дней</div>
+                <div className="col-30 last str-2"><span className="ft-size--20 value-slider-2">{ item.daysToPay }</span> дней</div>
             </div>
             <div className="row section-2__str-3">
                 <div className="col-30 first">Сумма</div>
@@ -32,8 +32,8 @@
                 <div className="col-30"></div>
             </div>
             <div className="row section-2__str-4">
-                <div className="col-30 first">100-3000 грн</div>
-                <div className="col-40 str-4">1-30 дней</div>
+                <div className="col-30 first">{ item.limitSumm } грн</div>
+                <div className="col-40 str-4"> { item.limitTerm } дней</div>
                 <div className="col-30"></div>
             </div>
         </div>

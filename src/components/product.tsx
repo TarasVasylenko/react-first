@@ -24,7 +24,9 @@
                     <div className="el-2"><span className="ft-size--20 value-slider-1">{ item.bodyCredit }</span> грн</div>
                     <div className="el-3">=</div>
                 </div>
-                <div className="col-30 last str-2"><span className="ft-size--20 value-slider-2">{ item.daysToPay }</span> дней</div>
+                <div className="col-30 last str-2">
+                    <span className="ft-size--20 value-slider-2">{ item.daysToPay }</span> дней
+                </div>
             </div>
             <div className="row section-2__str-3">
                 <div className="col-30 first">Сумма</div>

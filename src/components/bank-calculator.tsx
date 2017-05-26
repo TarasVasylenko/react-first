@@ -6,7 +6,6 @@
     import 'rc-slider/assets/index.css';
 
     import { Product } from './product';
-
     import { bankOffers } from './data';
 
     export class Products extends React.Component<any, any> {
@@ -14,7 +13,6 @@
             super(props);
             this.state = { products: bankOffers }
         }
-
 
     render() {
         let { products } = this.state;

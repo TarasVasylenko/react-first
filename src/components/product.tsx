@@ -38,7 +38,7 @@
             </div>
         </div>
         <div className="bid"><a href="#">Оформить заявку</a></div>
-        { item.someField && <div className="section-2__sale">{ item.sale } кредит</div> }
+        { item.sale && <div className="section-2__sale">{ item.sale }% кредит</div> }
     </div>)
 
     };

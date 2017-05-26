@@ -12,10 +12,7 @@ const data = [ { nameProduct: 'Быстрозайм', toPay: 1600, bodyCredit: 1
                { nameProduct: 'Moneyveo', toPay: 2400, bodyCredit: 100, daysToPay: 5, limitSumm: '100-300', limitTerm: '1-30', imgAddress: "../../src/img/moneyveo.PNG"} 
              ];
 
-
-
-
-export class Hello extends React.Component<any, any> {
+export class Products extends React.Component<any, any> {
     constructor(props) {
         super(props);
         this.state = { products: data }
@@ -27,21 +24,14 @@ render() {
 
     return (
         <div>
-
-        <div className="container">
-            <div className="content">
-                <div className="slider-1"><Slider /></div>
-
-               { products.map((item, i) => <Product item={ item } key= { i } /> ) }
-
+            <div className="container">
+                <div className="content">
+                    <div className="slider-1"><Slider /></div>
+                    { products.map((item, i) => <Product item={ item } key= { i } /> ) }
+                </div>
             </div>
         </div>
-
-
-        </div>
         );
-
-
     }
 }
 
